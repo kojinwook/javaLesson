@@ -17,8 +17,8 @@ public class Variable {
 
         // 40 = number; // 안됨
 
- //       int number2;
-  //      number2 = "고진욱"; // 숫자 변수에 문자를 저장하려고 하면 안됨
+        //   int number2;
+        //   number2 = "고진욱"; // 숫자 변수에 문자를 저장하려고 하면 안됨
 
         // String = 자바에서 문자열을 의미
         String str;
@@ -52,6 +52,7 @@ public class Variable {
         // 변수 주의사항
         // 변수명은 중복되지 않도록 지어야한다.
         // 변수명은 숫자로 시작하면 안된다.
+        // 변수명은 특수문자로 시작하면 안된다.
         // 변수는 재활용 가능하다.
 
         int a;

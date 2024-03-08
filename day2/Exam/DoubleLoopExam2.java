@@ -1,4 +1,4 @@
-package day2;
+package day2.Exam;
 
 public class DoubleLoopExam2 {
     public static void main(String[] args) {
@@ -6,11 +6,18 @@ public class DoubleLoopExam2 {
         int n = 4; // 시작
         int m = 20; // 끝
         int limit = 10; // 곱의 개수
+        for(int i = n; i<= m; i++ ){for(int j = 1; j<=limit; j++){if(i % 2 != 0){if(j % 2 ==0){
+            System.out.println(i +"*"+j +"="+(i*j));
+        }}}}
 
-        for(int i = 5; i<20; i+=2){for(int j= 2; j<=10; j+=2){
-            System.out.println(i +"*"+j+ "=" +(i*j));}}
 
 
+
+
+
+
+//        for(int i = 5; i<20; i+=2){for(int j= 2; j<=10; j+=2){
+//            System.out.println(i +"*"+j+ "=" +(i*j));}}
 //        정답
 //        Scanner sc = new Scanner(System.in);
 //
@@ -30,18 +37,6 @@ public class DoubleLoopExam2 {
 //                }
 //            }
 //        }
-
-
-
-
-
-
-
-
-
-
-
-
 
         /*  입출력 예시
     n은 4, m은 20, limit는 10

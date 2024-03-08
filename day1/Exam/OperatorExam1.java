@@ -1,4 +1,4 @@
-package day1;
+package day1.Exam;
 
 public class OperatorExam1 {
     public static void main(String[] args) {
@@ -35,7 +35,7 @@ public class OperatorExam1 {
             System.out.println("참");
         }
 
-        //boolean c => c 에는 오직 true/false 만 담을 수 있다.
+        // boolean c => c 에는 오직 true/false 만 담을 수 있다.
 
         boolean c = a != b;
 

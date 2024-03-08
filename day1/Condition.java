@@ -2,7 +2,7 @@ package day1;
 
 public class Condition {
     public static void main(String[] args) {
-        // if소중 = if(){}
+        // if소중 = if(){} : ()가 참이면 {}실행
 
         int a = 100;
 
@@ -65,7 +65,7 @@ public class Condition {
             System.out.println("성인");
         }
 
-        // else 같은 경우는 마지막에 조건을 생략하고 사용 가능
+        // else 같은 경우는 마지막에 조건을 생략하고 사용 가능 else if (){} >> if ()  생략가능
         // (조건문 덩어리 마지막에 와야 함)
 
 

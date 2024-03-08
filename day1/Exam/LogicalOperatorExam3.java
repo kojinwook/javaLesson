@@ -1,4 +1,4 @@
-package day1;
+package day1.Exam;
 
 public class LogicalOperatorExam3 {
     public static void main(String[] args) {
@@ -20,7 +20,11 @@ public class LogicalOperatorExam3 {
         }
         else {
             System.out.println("할인대상이 아닙니다.");
-        }
+        } // 구현 끝
+
+        // 출력 => 할인대상입니다. 또는 할인 대상이 아닙니다.
+    }
+}
 
 //        // 정답
 //        // if 문만 이용해서 풀기
@@ -33,12 +37,6 @@ public class LogicalOperatorExam3 {
 //        if(age>19){if(age <60){
 //            System.out.println("할인대상이 아닙니다.");
 //        }}
-//
 
 
 
-        // 구현 끝
-
-        // 출력 => 할인대상입니다. 또는 할인 대상이 아닙니다.
-    }
-}

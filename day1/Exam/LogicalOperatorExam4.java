@@ -1,4 +1,4 @@
-package day1;
+package day1.Exam;
 
 public class LogicalOperatorExam4 {
     public static void main(String[] args) {

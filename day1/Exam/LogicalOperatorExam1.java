@@ -1,4 +1,4 @@
-package day1;
+package day1.Exam;
 
 public class LogicalOperatorExam1 {
     public static void main(String[] args) {
@@ -6,7 +6,7 @@ public class LogicalOperatorExam1 {
         // num 이 짝수면 even, 홀수면 odd 출력해주세요.
         // 짝수 판별 : 2로 나누어서 떨어지면 짝수
         int num = 7;
-        if(num % 2 == 0) {
+        if(num % 2 == 0) {  // 나머지 부호 % 사용
             System.out.println("even");
         }
         else if(num % 2 != 0){   // else 뒤에 if() 생략가능

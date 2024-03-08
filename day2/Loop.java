@@ -11,9 +11,7 @@ public class Loop {
         }
         // if랑 동일 한번 실행하면 계속해서 실행
         //  true 는 무제한 실행 false 는 실행되지 않음
-//        while (true){
-//            System.out.println("실행");
-//        }
+        //   while (true){System.out.println("실행");}
         // 주석 한번에 여러번 하는법 : 드래그하고 Ctrl + /
 
          // 원하는 만큼만 반복
@@ -21,8 +19,8 @@ public class Loop {
 
         while (cnt < 5){ // 5번 반복
             System.out.println("실행1");
-            cnt++;
-        }
+            cnt++;}
+        // 0부터 시작하기 때문에 5번 반복
 
         // for문
         for(int cnt2 = 0; cnt2 < 5; cnt2++){
@@ -41,27 +39,16 @@ public class Loop {
 
         // 1부터 10까지 짝수 출력 v2
         for(int i =2; i <= 10; i ++){
-            if(i % 2 == 0) {
-                System.out.println(i); //짝수일 때만 출력
-            }
+            if(i % 2 == 0) {System.out.println(i); }}
+            // 짝수일 때만 출력
             // 2의 배수 == 짝수
             // 2의 배수는 2로 나누어 떨어진다 >> 나머지가 0이다.
             // 나머지 구하는 연산자 %
 
-        }
+
 
 
         // 1부터 10까지 4의 배수 출력
-        for(int i = 4; i <= 10; i +=4 ){
-            System.out.println(i);
-        }
-
-
-
-
-
-
-
-
+        for(int i = 4; i <= 10; i +=4 ){System.out.println(i);}
     }
 }

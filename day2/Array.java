@@ -12,7 +12,7 @@ public class Array {
         int g = 70;
 
         // 모든 변수를 출력
-        //sout tab >> 단축키
+        // sout tab >> 단축키
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
@@ -40,6 +40,7 @@ public class Array {
         System.out.println(num.length);
 
         // 0부터 6까지 수열 만들기
+        // 어디까지인지 모를때는 num.length를 쓴다.
         for(int i = 0; i <num.length; i++){
             System.out.println(num[i]);
         }
@@ -52,6 +53,7 @@ public class Array {
         int[] arr = new int[10];
 
         // 3번째 인덱스에 100을 저장
+        // 배열 인덱스는 0부터 시작하므로! 2이다
         arr[2] = 100;
 
         // 문자 3개 저장하는 배열 만들어보세요.

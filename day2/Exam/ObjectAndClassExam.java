@@ -1,6 +1,4 @@
-package day2;
-
-import com.sun.jdi.request.WatchpointRequest;
+package day2.Exam;
 
 public class ObjectAndClassExam {
     public static void main(String[] args) {

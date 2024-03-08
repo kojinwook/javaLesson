@@ -9,7 +9,7 @@ public class ObjectAndClass {
         // 사람 표현
         // 이름, 나이, 거주지
 
-        // 사람1명
+        // 사람1명 = 객체
         String name = "홍길동";
         int age = 20;
         String home = "서울";

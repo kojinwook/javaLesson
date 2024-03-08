@@ -1,4 +1,4 @@
-package day1;
+package day1.Exam;
 
 public class LogicalOperatorExam2 {
     public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class LogicalOperatorExam2 {
 
         if (num1 > num2) {
             System.out.println(num1 - num2);
-        } else if (num2 > num1) {
+        } else if (num1 <= num2) { // if() 생략가능
             System.out.println(num2 - num1);
         }
 
