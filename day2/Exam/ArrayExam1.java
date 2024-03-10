@@ -6,10 +6,8 @@ public class ArrayExam1 {
       //  int[]arr = {}; >>  배열선언
 //      int[]arr={10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
       int[]arr2 = new int[10];
-      for(int i = 0; i <10; i++){arr2[i]= (i + 1) * 10;}
-      for(int i= 0; i<10; i++){
-          System.out.println(i);
-      }
+      for(int i = 0; i <10; i++){arr2[i]= (i + 1) * 10;
+      System.out.println(arr2[i]);}
 
     }
 }

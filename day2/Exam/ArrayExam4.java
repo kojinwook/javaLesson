@@ -8,6 +8,7 @@ public class ArrayExam4 {
         int sum =0;
         for(int i= 0; i<arr.length; i++){ sum += arr[i];}
             System.out.println(sum);
+        // 계좌돈 합치기랑 똑같이 생각하면 됨
 
 		/*
 		// 아래 4줄은 위 1줄과 같은 의미 입니다.

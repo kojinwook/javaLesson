@@ -76,9 +76,9 @@ class Person {
 }
 class Car{
 
-         String   color;
+    String   color;
     int speed;
-            String model;
+    String model;
 }
 class Cat{
 String name;
